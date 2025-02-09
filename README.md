@@ -124,14 +124,15 @@ The project uses two primary datasets:
 📦 **Project Structure**
 ------------------------
 
-- 📂 **NLP-Classifier**\
-- ├── 📄 `main.py` *(Main script to train & evaluate models)*\
-- ├── 📄 `conlleval.py` *(NER evaluation script)*\
-- ├── 📄 `model.simple` *(Pre-trained NER model)*\
-- ├── 📄 `ner.train` *(Training data for NER)*\
-- ├── 📄 `ner.dev` *(Dev set for evaluation)*\
-- ├── 📄 `ner.test` *(Test set for final evaluation)*\
-- ├── 📄 `README.md` *(This file! 🚀)*
+- 📂 **NLP-Classifier**  
+- ├── 📄 `text_classification_rnn_lstm.py` *(Main script to train & evaluate text classification models using RNNs & LSTMs)*  
+- ├── 📄 `viterbi_sequence_labeling.py` *(Implementation of the Viterbi algorithm for sequence labeling tasks, such as Named Entity Recognition (NER))*  
+- ├── 📄 `conlleval.py` *(NER evaluation script for computing precision, recall, and F1-score based on CoNLL format output)*  
+- ├── 📄 `model.simple` *(Pre-trained NER model used for inference and evaluation)*  
+- ├── 📄 `ner.train` *(Training dataset for Named Entity Recognition (NER), containing labeled sequences of text)*  
+- ├── 📄 `ner.dev` *(Development dataset for fine-tuning and hyperparameter selection in NER models)*  
+- ├── 📄 `ner.test` *(Test dataset for final performance evaluation of the trained NER model)*  
+- ├── 📄 `README.md` *(Comprehensive documentation of the project! 🚀)*  
 
 * * * * *
 
